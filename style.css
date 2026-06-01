@@ -1,3 +1,14 @@
 body {
+    color: #ffffff;
     background: url(/assets/img/universe.jpg);
+    background-size: cover;
+    display: block;
+    text-align: center  ;
+}
+
+.btn {
+    padding: 5px 15px;
+    border-radius: 0;
+    background: #ffffff;
+    border: none;
 }
