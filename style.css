@@ -7,7 +7,7 @@ body {
     font-family: 'oxanium', sans-serif;
 }
 
-.logo {
+#main-logo {
   max-width: 30%; /* Image will never exceed the width of its parent container */
   max-height: 400px; /* Image will never be taller than 400 pixels */
   width: auto;
