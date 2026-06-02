@@ -1,10 +1,14 @@
-body {
-    color: whitesmoke;
+#hero {
     background: url(/assets/img/galaxy.webp);
     background-size: cover;
+        padding: 10px 0 40px 0;
+}
+body {
+    color: #a4b9dd;
     display: block;
     text-align: center;
     font-family: 'oxanium', sans-serif;
+    margin: 0;
 }
 
 #main-logo {
@@ -20,6 +24,8 @@ body {
     background: #ffffff;
     border: none;
     font-family: 'oxanium', sans-serif; /*We can also use 'inherit'*/
+    color: #4166a5;
+    font-weight: 800;
 }
 
 .underline {
