@@ -7,6 +7,13 @@ body {
     font-family: 'oxanium', sans-serif;
 }
 
+.logo {
+  max-width: 30%; /* Image will never exceed the width of its parent container */
+  max-height: 400px; /* Image will never be taller than 400 pixels */
+  width: auto;
+  height: auto; /* Maintains proper proportions */
+}
+
 .btn {
     padding: 5px 15px;
     border-radius: 0;
@@ -16,5 +23,5 @@ body {
 }
 
 .underline {
-    border-bottom: 5px solid whitesmoke;
+    border-bottom: 4px solid whitesmoke;
 }
