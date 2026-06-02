@@ -1,7 +1,7 @@
 #hero {
     background: url(/assets/img/galaxy.webp);
-    background-size: cover;
-        padding: 10px 0 40px 0;
+    background-size: coverS;
+    padding: 10px 0 40px 0;
 }
 body {
     color: #a4b9dd;
