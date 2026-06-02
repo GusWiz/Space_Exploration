@@ -1,9 +1,10 @@
 body {
-    color: #ffffff;
+    color: whitesmoke;
     background: url(/assets/img/universe.jpg);
     background-size: cover;
     display: block;
-    text-align: center  ;
+    text-align: center;
+    font-family: 'oxanium', sans-serif;
 }
 
 .btn {
@@ -11,4 +12,9 @@ body {
     border-radius: 0;
     background: #ffffff;
     border: none;
+    font-family: 'oxanium', sans-serif; /*We can also use 'inherit'*/
+}
+
+.underline {
+    border-bottom: 5px solid whitesmoke;
 }
